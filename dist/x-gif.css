@@ -4,7 +4,9 @@
 #frames,
 .x-gif__frames {
   display: inline-block;
-  position: relative; }
+  position: relative;
+  width: 100%;
+  height: auto; }
   #frames[data-frame="0"] .frame:nth-child(n + 2),
   .x-gif__frames[data-frame="0"] .frame:nth-child(n + 2) {
     opacity: 0; }
@@ -612,7 +614,9 @@
   left: 0;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
-  transform: translateZ(0); }
+  transform: translateZ(0);
+  width: 100%;
+  height: auto; }
   .frame:first-child {
     position: static; }
   .frame.disposal-restore {
